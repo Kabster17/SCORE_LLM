@@ -1,0 +1,39 @@
+SCORE Project – Consolidated Prompt Library
+
+1. OpenAI (GPT-4o) – Anesthesia Domain
+System Prompt:
+"You are an anesthesiologist."
+
+User Prompt Template:
+{question}
+
+
+2. Anthropic (Claude Sonnet 4) – Medication / Pharmacy Domain
+User Prompt Template:
+"You are a pharmacist. Please answer the following question: {question}"
+
+
+3. DeepSeek – Medication / Pharmacy Domain
+System Prompt:
+"You are a pharmacist."
+
+User Prompt Template:
+{question}
+
+
+4. General Experimental Parameters (Applied Across Models)
+- Temperature: 0.3
+- Top-p: 0.6
+- Max tokens: 512–1024
+- Number of responses per question: 3 (for reproducibility assessment)
+
+
+5. Prompt Design Notes
+- Role conditioning used via system prompts (OpenAI, DeepSeek)
+- Instruction-based prompting used for Claude
+- No chain-of-thought prompting explicitly enforced
+- Consistent domain framing across models for fair comparison
+- Multiple generations per question used to assess reproducibility (SCORE-R)
+
+
+End of Prompt File
