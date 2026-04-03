@@ -56,7 +56,7 @@ The analysis script expects a long-format file with these columns:
 - `model`
 - `response_id`
 - `Safety`
-- `Consensus`
+- `Context & Consensus`
 - `Objectivity`
 - `Reproducibility`
 - `Explainability`
